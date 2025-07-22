@@ -1,5 +1,5 @@
 
-# Login Page
+# Pagina Institucional
 
 Projeto simples criado com HTML, CSS e JavaScript.
 
