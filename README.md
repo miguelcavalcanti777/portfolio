@@ -1,5 +1,5 @@
 
-# Landing Page
+# Login Page
 
 Projeto simples criado com HTML, CSS e JavaScript.
 
