@@ -3,9 +3,87 @@
 <head>
   <meta charset="UTF-8" />
   <title>Página de Login</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 400px;
+      margin: 60px auto;
+      padding: 20px;
+      background: #f0f0f0;
+      border-radius: 12px;
+      box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+      color: #333;
+    }
+    header, footer {
+      text-align: center;
+      padding: 10px 0;
+      background-color: #0984e3;
+      color: white;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    input {
+      padding: 12px;
+      margin-bottom: 15px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      outline-color: #0984e3;
+    }
+    button {
+      padding: 12px;
+      font-size: 1.1rem;
+      background-color: #0984e3;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #065aab;
+    }
+    nav a {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      color: #0984e3;
+      font-weight: 600;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <h1>Página de Login</h1>
-  <p>Projeto de exemplo.</p>
+  <header>
+    <h1>Página de Login</h1>
+  </header>
+
+  <main>
+    <form>
+      <input type="text" placeholder="Usuário" required />
+      <input type="password" placeholder="Senha" required />
+      <button type="submit">Entrar</button>
+    </form>
+  </main>
+
+  <nav>
+    <a href="../index.html">Home</a> | 
+    <a href="../landing-page/index.html">Landing Page</a> | 
+    <a href="../pagina-institucional/index.html">Página Institucional</a>
+  </nav>
+
+  <footer>
+    &copy; 2025 Miguel Cavalcanti
+  </footer>
 </body>
 </html>
